@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WDLLocationManager.h"
 
-@interface WDLAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WDLAppDelegate : UIResponder <UIApplicationDelegate, WDLLocationManagerDelegate>
+
+- (void)fsqAuthenticate;
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98532801841A1BD00E5C7F3 /* BZFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = A985327D1841A1BD00E5C7F3 /* BZFoursquare.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A98532811841A1BD00E5C7F3 /* BZFoursquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A985327F1841A1BD00E5C7F3 /* BZFoursquareRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A98532861841A1F600E5C7F3 /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = A98532851841A1F600E5C7F3 /* FSQVenue.m */; };
+		A985328A1841A20500E5C7F3 /* WDLFSQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A98532891841A20500E5C7F3 /* WDLFSQManager.m */; };
+		A985328E1841A34100E5C7F3 /* WDLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A985328D1841A34100E5C7F3 /* WDLLocationManager.m */; };
+		A9C596871844402B00C8DBDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C596861844402B00C8DBDC /* Images.xcassets */; };
+		A9C596BF184A45A300C8DBDC /* message_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C596BA184A45A300C8DBDC /* message_0.png */; };
+		A9C596C0184A45A300C8DBDC /* message_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C596BB184A45A300C8DBDC /* message_1.png */; };
+		A9C596C1184A45A300C8DBDC /* message_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C596BC184A45A300C8DBDC /* message_2.png */; };
+		A9C596C2184A45A300C8DBDC /* message_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C596BD184A45A300C8DBDC /* message_3.png */; };
+		A9C596C3184A45A300C8DBDC /* message_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C596BE184A45A300C8DBDC /* message_4.png */; };
 		A9F758DA18414E48005CC8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F758D918414E48005CC8FC /* Foundation.framework */; };
 		A9F758DC18414E48005CC8FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F758DB18414E48005CC8FC /* CoreGraphics.framework */; };
 		A9F758DE18414E48005CC8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F758DD18414E48005CC8FC /* UIKit.framework */; };
@@ -34,7 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A9F758D618414E48005CC8FC /* Bar Ghost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar Ghost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A985327C1841A1BD00E5C7F3 /* BZFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquare.h; sourceTree = "<group>"; };
+		A985327D1841A1BD00E5C7F3 /* BZFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquare.m; sourceTree = "<group>"; };
+		A985327E1841A1BD00E5C7F3 /* BZFoursquareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZFoursquareRequest.h; sourceTree = "<group>"; };
+		A985327F1841A1BD00E5C7F3 /* BZFoursquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZFoursquareRequest.m; sourceTree = "<group>"; };
+		A98532841841A1F600E5C7F3 /* FSQVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQVenue.h; sourceTree = "<group>"; };
+		A98532851841A1F600E5C7F3 /* FSQVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQVenue.m; sourceTree = "<group>"; };
+		A98532871841A1FE00E5C7F3 /* FSQAppCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSQAppCredentials.h; sourceTree = "<group>"; };
+		A98532881841A20500E5C7F3 /* WDLFSQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLFSQManager.h; sourceTree = "<group>"; };
+		A98532891841A20500E5C7F3 /* WDLFSQManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLFSQManager.m; sourceTree = "<group>"; };
+		A985328C1841A34100E5C7F3 /* WDLLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLLocationManager.h; sourceTree = "<group>"; };
+		A985328D1841A34100E5C7F3 /* WDLLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLLocationManager.m; sourceTree = "<group>"; };
+		A9C596861844402B00C8DBDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9C596BA184A45A300C8DBDC /* message_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_0.png; sourceTree = "<group>"; };
+		A9C596BB184A45A300C8DBDC /* message_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_1.png; sourceTree = "<group>"; };
+		A9C596BC184A45A300C8DBDC /* message_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_2.png; sourceTree = "<group>"; };
+		A9C596BD184A45A300C8DBDC /* message_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_3.png; sourceTree = "<group>"; };
+		A9C596BE184A45A300C8DBDC /* message_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_4.png; sourceTree = "<group>"; };
+		A9C596C4184A4A8600C8DBDC /* WDLMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDLMessages.h; sourceTree = "<group>"; };
+		A9F758D618414E48005CC8FC /* Məssagəs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Məssagəs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F758D918414E48005CC8FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9F758DB18414E48005CC8FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A9F758DD18414E48005CC8FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -79,9 +108,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A985327B1841A1B100E5C7F3 /* BZFoursquare */ = {
+			isa = PBXGroup;
+			children = (
+				A985327C1841A1BD00E5C7F3 /* BZFoursquare.h */,
+				A985327D1841A1BD00E5C7F3 /* BZFoursquare.m */,
+				A985327E1841A1BD00E5C7F3 /* BZFoursquareRequest.h */,
+				A985327F1841A1BD00E5C7F3 /* BZFoursquareRequest.m */,
+			);
+			name = BZFoursquare;
+			sourceTree = "<group>";
+		};
+		A98532821841A1C700E5C7F3 /* WDL FSQ */ = {
+			isa = PBXGroup;
+			children = (
+				A98532881841A20500E5C7F3 /* WDLFSQManager.h */,
+				A98532891841A20500E5C7F3 /* WDLFSQManager.m */,
+				A98532841841A1F600E5C7F3 /* FSQVenue.h */,
+				A98532851841A1F600E5C7F3 /* FSQVenue.m */,
+			);
+			name = "WDL FSQ";
+			sourceTree = "<group>";
+		};
+		A98532831841A1DA00E5C7F3 /* FourSquare */ = {
+			isa = PBXGroup;
+			children = (
+				A98532871841A1FE00E5C7F3 /* FSQAppCredentials.h */,
+			);
+			name = FourSquare;
+			sourceTree = "<group>";
+		};
+		A985328B1841A33900E5C7F3 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A985328C1841A34100E5C7F3 /* WDLLocationManager.h */,
+				A985328D1841A34100E5C7F3 /* WDLLocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
 		A9F758CD18414E48005CC8FC = {
 			isa = PBXGroup;
 			children = (
+				A985328B1841A33900E5C7F3 /* Location */,
+				A98532831841A1DA00E5C7F3 /* FourSquare */,
+				A98532821841A1C700E5C7F3 /* WDL FSQ */,
+				A985327B1841A1B100E5C7F3 /* BZFoursquare */,
+				A9F7590F18415B04005CC8FC /* Assets */,
 				A9F758DF18414E48005CC8FC /* Bar Ghost */,
 				A9F758FE18414E48005CC8FC /* Bar GhostTests */,
 				A9F758D818414E48005CC8FC /* Frameworks */,
@@ -92,7 +165,7 @@
 		A9F758D718414E48005CC8FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9F758D618414E48005CC8FC /* Bar Ghost.app */,
+				A9F758D618414E48005CC8FC /* Məssagəs.app */,
 				A9F758F718414E48005CC8FC /* Bar GhostTests.xctest */,
 			);
 			name = Products;
@@ -112,13 +185,14 @@
 		A9F758DF18414E48005CC8FC /* Bar Ghost */ = {
 			isa = PBXGroup;
 			children = (
+				A9F758F118414E48005CC8FC /* Images.xcassets */,
+				A9F758EB18414E48005CC8FC /* Main.storyboard */,
+				A9F758E018414E48005CC8FC /* Supporting Files */,
 				A9F758E818414E48005CC8FC /* WDLAppDelegate.h */,
 				A9F758E918414E48005CC8FC /* WDLAppDelegate.m */,
-				A9F758EB18414E48005CC8FC /* Main.storyboard */,
+				A9C596C4184A4A8600C8DBDC /* WDLMessages.h */,
 				A9F758EE18414E48005CC8FC /* WDLViewController.h */,
 				A9F758EF18414E48005CC8FC /* WDLViewController.m */,
-				A9F758F118414E48005CC8FC /* Images.xcassets */,
-				A9F758E018414E48005CC8FC /* Supporting Files */,
 			);
 			path = "Bar Ghost";
 			sourceTree = "<group>";
@@ -152,12 +226,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A9F7590F18415B04005CC8FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9C596BA184A45A300C8DBDC /* message_0.png */,
+				A9C596BB184A45A300C8DBDC /* message_1.png */,
+				A9C596BC184A45A300C8DBDC /* message_2.png */,
+				A9C596BD184A45A300C8DBDC /* message_3.png */,
+				A9C596BE184A45A300C8DBDC /* message_4.png */,
+				A9C596861844402B00C8DBDC /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9F758D518414E48005CC8FC /* Bar Ghost */ = {
+		A9F758D518414E48005CC8FC /* Məssagəs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9F7590818414E48005CC8FC /* Build configuration list for PBXNativeTarget "Bar Ghost" */;
+			buildConfigurationList = A9F7590818414E48005CC8FC /* Build configuration list for PBXNativeTarget "Məssagəs" */;
 			buildPhases = (
 				A9F758D218414E48005CC8FC /* Sources */,
 				A9F758D318414E48005CC8FC /* Frameworks */,
@@ -167,9 +254,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bar Ghost";
+			name = "Məssagəs";
 			productName = "Bar Ghost";
-			productReference = A9F758D618414E48005CC8FC /* Bar Ghost.app */;
+			productReference = A9F758D618414E48005CC8FC /* Məssagəs.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A9F758F618414E48005CC8FC /* Bar GhostTests */ = {
@@ -200,12 +287,19 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "William Lindmeier";
 				TargetAttributes = {
+					A9F758D518414E48005CC8FC = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					A9F758F618414E48005CC8FC = {
 						TestTargetID = A9F758D518414E48005CC8FC;
 					};
 				};
 			};
-			buildConfigurationList = A9F758D118414E48005CC8FC /* Build configuration list for PBXProject "Bar Ghost" */;
+			buildConfigurationList = A9F758D118414E48005CC8FC /* Build configuration list for PBXProject "Məssagəs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,7 +312,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9F758D518414E48005CC8FC /* Bar Ghost */,
+				A9F758D518414E48005CC8FC /* Məssagəs */,
 				A9F758F618414E48005CC8FC /* Bar GhostTests */,
 			);
 		};
@@ -230,8 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F758F218414E48005CC8FC /* Images.xcassets in Resources */,
+				A9C596C1184A45A300C8DBDC /* message_2.png in Resources */,
+				A9C596C3184A45A300C8DBDC /* message_4.png in Resources */,
+				A9C596871844402B00C8DBDC /* Images.xcassets in Resources */,
 				A9F758E418414E48005CC8FC /* InfoPlist.strings in Resources */,
 				A9F758ED18414E48005CC8FC /* Main.storyboard in Resources */,
+				A9C596BF184A45A300C8DBDC /* message_0.png in Resources */,
+				A9C596C0184A45A300C8DBDC /* message_1.png in Resources */,
+				A9C596C2184A45A300C8DBDC /* message_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +351,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F758EA18414E48005CC8FC /* WDLAppDelegate.m in Sources */,
+				A98532811841A1BD00E5C7F3 /* BZFoursquareRequest.m in Sources */,
+				A985328E1841A34100E5C7F3 /* WDLLocationManager.m in Sources */,
 				A9F758F018414E48005CC8FC /* WDLViewController.m in Sources */,
+				A98532801841A1BD00E5C7F3 /* BZFoursquare.m in Sources */,
+				A98532861841A1F600E5C7F3 /* FSQVenue.m in Sources */,
+				A985328A1841A20500E5C7F3 /* WDLFSQManager.m in Sources */,
 				A9F758E618414E48005CC8FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +374,7 @@
 /* Begin PBXTargetDependency section */
 		A9F758FD18414E48005CC8FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9F758D518414E48005CC8FC /* Bar Ghost */;
+			target = A9F758D518414E48005CC8FC /* Məssagəs */;
 			targetProxy = A9F758FC18414E48005CC8FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9F758D118414E48005CC8FC /* Build configuration list for PBXProject "Bar Ghost" */ = {
+		A9F758D118414E48005CC8FC /* Build configuration list for PBXProject "Məssagəs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9F7590618414E48005CC8FC /* Debug */,
@@ -454,13 +559,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9F7590818414E48005CC8FC /* Build configuration list for PBXNativeTarget "Bar Ghost" */ = {
+		A9F7590818414E48005CC8FC /* Build configuration list for PBXNativeTarget "Məssagəs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9F7590918414E48005CC8FC /* Debug */,
 				A9F7590A18414E48005CC8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9F7590B18414E48005CC8FC /* Build configuration list for PBXNativeTarget "Bar GhostTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +575,7 @@
 				A9F7590D18414E48005CC8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

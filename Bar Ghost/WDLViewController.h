@@ -10,4 +10,9 @@
 
 @interface WDLViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UILabel *labelStatus;
+@property (nonatomic, strong) IBOutlet UIImageView *imageViewMessage;
+
+- (IBAction)buttonUpdatePressed:(id)sender;
+
 @end
