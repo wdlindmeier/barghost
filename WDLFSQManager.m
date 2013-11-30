@@ -34,8 +34,8 @@ static NSString * FSQAccessTokenKey = @"FSQAccessToken";
     self = [super init];
     if(self)
     {
-        self.foursquare = [[BZFoursquare alloc] initWithClientID:FHClientID
-                                                     callbackURL:FHCallbackURL];
+        self.foursquare = [[BZFoursquare alloc] initWithClientID:FSClientID
+                                                     callbackURL:FSCallbackURL];
         _foursquare.version = @"20111119";
         _foursquare.locale = [[NSLocale currentLocale] objectForKey:NSLocaleLanguageCode];
         _foursquare.sessionDelegate = self;
@@ -205,7 +205,7 @@ static NSString * FSQAccessTokenKey = @"FSQAccessToken";
     
     CLLocationCoordinate2D coord = [[WDLLocationManager sharedManager] currentCoord];
 
-#if DEBUG
+#if DEBUG || TARGET_IPHONE_SIMULATOR
     // This is The Richardson
     // coord.latitude = 40.718814;
     // coord.longitude = -73.945300;
